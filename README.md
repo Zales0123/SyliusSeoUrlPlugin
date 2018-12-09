@@ -87,4 +87,11 @@ Combined with [disabling localised URLs](https://docs.sylius.com/en/latest/cookb
                     classes:
                         repository: StefanDoorn\SyliusSeoUrlPlugin\Repository\ProductRepository
         ``` 
- 
+
+7. Install assets:
+
+    ```bash
+    $ bin/console assets:install
+    $ bin/console sylius:install:assets
+    $ bin/console sylius:theme:assets:install
+    ``` 
